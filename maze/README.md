@@ -17,3 +17,5 @@
 ```
 
 Open localhost:8080 with Browser (Chrome, etc)
+
+<img src="scr.png">
