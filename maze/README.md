@@ -19,3 +19,13 @@
 Open localhost:8080 with Browser (Chrome, etc)
 
 <img src="scr.png">
+
+## How to edit source and run again
+
+- Rust
+
+Edit .rs and do ```wasm-pack build``` again
+
+- JavaScript
+
+Just edit .js and save it. npm process will detect file update and reload .js automatically.

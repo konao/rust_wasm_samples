@@ -63,8 +63,11 @@ impl Maze {
     }
 
     pub fn new() -> Maze {
-        let width: u32 = 109;
-        let height: u32 = 69;
+        // +++++++++++++++++++++++++++++++++++++++++
+        //  迷路のサイズを変えたいときはここを修正
+        let width: u32 = 199;
+        let height: u32 = 99;
+        // +++++++++++++++++++++++++++++++++++++++++
 
         // 最初は全セル空白
         let mut cells : Vec<Cell> = (0..width * height)
